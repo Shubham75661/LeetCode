@@ -22,3 +22,4 @@ public:
 // will point me to same index which is temp[nums[i]].
 // the value will be 1 or number of occourance then I will add +1 to it 
 // 1 becames 2.
+// Solved 2 more questions commiting tommarow.
