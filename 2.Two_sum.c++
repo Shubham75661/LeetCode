@@ -10,3 +10,4 @@ var twoSum = function(nums, target) {
             storage[target-num] = index;
     }
 };
+// SUBMITED TWICE
