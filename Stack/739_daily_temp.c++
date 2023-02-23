@@ -26,3 +26,28 @@ public:
         return ans;
     }
 };
+
+// Approch 2 not using stack IMP learn more about this
+
+class Solution {
+public:
+    vector<int> dailyTemperatures(vector<int>& t) {
+        int bt = INT_MIN;
+        vector<int>ans(t.size());
+
+        for(int i = t.size()-1 ; i>=0; i--){
+           if(t[i]>= bt){
+               bt = t[i];
+               ans[i] = 0;
+           }
+           else{
+               int it = i + 1;
+               while(t[i] >= t[it]){
+                   it += ans[it];
+               }
+               ans[i] = it - i;
+           }
+        }
+        return ans;
+    }
+};
