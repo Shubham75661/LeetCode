@@ -44,6 +44,8 @@ int main() {
         int n, e;
         cin>>n >> e;
         g.addEdge(n, e, 0);
+        // For creating directed graph
+        // g.addEdge(n, e, 1);
         cout<<endl;
     }
     g.printG();
