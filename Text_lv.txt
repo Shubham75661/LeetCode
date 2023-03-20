@@ -6,3 +6,4 @@ Study of tree traversal
 Coming back up
 solved 2 question today easy array
 Working on few other things today
+working on simple array questions
